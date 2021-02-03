@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+ body {
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+
+
+main{
+  padding-bottom: 100px;
+  width: 1200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid 2px;
+  margin: 20px 220px;
+  border-radius: 10px;
+}
+img {
+  width: 200px;
+  margin-left: 40%;
+  margin-top: 100px;
+}
+h1{
+  color: rgb(102, 255, 51);
+  text-align: center;
+}
+.selezioni{
+  height: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  background-color: rgb(102, 255, 51);
+  padding: 10px;
+  border-radius: 2px;
+}
+button {
+  height: 30px;
+  width: auto;
+  border-radius: 5px;
+}
+.monopattino{
+  margin-left: 100px;
+}
+.monopattino h2{
+  color: white;
+  display: inline-block;
+}
+.carica{
+  height: 20px;
+  border-radius: 5px;
+}
+.Gino .stato .carica {
+  background-color: green;
+  width: 80%;
+}
+.Mike .stato .carica {
+  background-color: red;
+  width: 30%;
+}
+.Fede .stato .carica {
+  background-color: orange;
+  width:50%;
+  }
+span, p{
+  color:white;
+}
